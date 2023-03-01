@@ -110,3 +110,18 @@ let numer = "9.8";
 console.log("es igual:", parseFloat(numer) === typeof(10));
 let numerInt = parseInt(numer); //convierto el float en numero int
 console.log("ahora si:", typeof(numerInt) === typeof(10)); //Compruebe si parseFloat('9.8') es igual a 10, si no, hágalo exactamente igual a 10. 
+
+
+console.log("se encuentra on en phyton: ","python".includes("on")); //Verifique si 'on' se encuentra tanto en Python como en la jerga
+console.log("se encuentra on en jerga:","jerga". includes("on"));
+
+console.log("verificamos:", "jerga".includes("jargon")); //Espero que este curso no esté lleno de jerga_. Compruebe si _jargon_ está en la oración
+
+console.log("numero aleatorio: ",Math.round(Math.random()* (100 - 0 + 1) + 0)); //Genere un número aleatorio entre 0 y 100 inclusive.
+console.log("numero aleatorio: ",Math.round(Math.random()* (100 - 50 + 1) + 50)); //Genere un número aleatorio entre 50 y 100 inclusive.
+console.log("numero aleatorio: ",Math.round(Math.random()* (255 - 0 + 1) + 0)) //Genere un número aleatorio entre 0 y 255 inclusive.
+
+
+
+
+
