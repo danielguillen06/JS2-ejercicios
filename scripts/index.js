@@ -121,7 +121,12 @@ console.log("numero aleatorio: ",Math.round(Math.random()* (100 - 0 + 1) + 0)); 
 console.log("numero aleatorio: ",Math.round(Math.random()* (100 - 50 + 1) + 50)); //Genere un número aleatorio entre 50 y 100 inclusive.
 console.log("numero aleatorio: ",Math.round(Math.random()* (255 - 0 + 1) + 0)) //Genere un número aleatorio entre 0 y 255 inclusive.
 
+let cadena="JavaScript";
+console.log("Acceder a la palabra: ", cadena.charAt(Math.random() * cadena.length)); //Acceda a los caracteres de la cadena 'JavaScript' utilizando un número aleatorio.
 
+console.log("expresiones regulares: ","\n 1 1 1 1 1", "\n 2 1 2 4 8", "\n 3 1 3 9 27", "\n 4 1 4 16 64", "\n 5 1 5 25 125"); //Use console.log() y caracteres de escape para imprimir el siguiente patrón.
 
+let frase1 = 'No puede terminar una oración con porque porque porque es una conjunción';
+console.log("Separar la frase (porque porque porque) :", frase1.substr(34, 20)); //Use **substr** para separar la frase **porque porque porque** de la siguiente oración:**'No puede terminar una oración con porque porque porque es una conjunción'
 
 
