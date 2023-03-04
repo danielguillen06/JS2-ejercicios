@@ -68,6 +68,8 @@ console.log("concatener las frases:", frase.concat("JavaScript ", "con ", "Pedro
 
 console.log("Repetir la frase 2 veces:", desafio.repeat(2)); //Use el método repeat () para imprimir Long Days Of JavaScript 2 veces
 console.log(" ");
+
+/////////////////////////////////////////////////////////////
 /*
 Ejercicio: Nivel 2
 
@@ -126,7 +128,22 @@ console.log("Acceder a la palabra: ", cadena.charAt(Math.random() * cadena.lengt
 
 console.log("expresiones regulares: ","\n 1 1 1 1 1", "\n 2 1 2 4 8", "\n 3 1 3 9 27", "\n 4 1 4 16 64", "\n 5 1 5 25 125"); //Use console.log() y caracteres de escape para imprimir el siguiente patrón.
 
-let frase1 = 'No puede terminar una oración con porque porque porque es una conjunción';
-console.log("Separar la frase (porque porque porque) :", frase1.substr(34, 20)); //Use **substr** para separar la frase **porque porque porque** de la siguiente oración:**'No puede terminar una oración con porque porque porque es una conjunción'
+let frase2 = 'No puede terminar una oración con porque porque porque es una conjunción';
+console.log("Separar la frase (porque porque porque) :", frase2.substr(34, 20)); //Use **substr** para separar la frase **porque porque porque** de la siguiente oración:**'No puede terminar una oración con porque porque porque es una conjunción'
+console.log("");
 
+/////////////////////////////////////////////////////////////
+/*
+Ejercicios: Nivel 3
 
+1. 'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor. Cuente el número de palabras **amor** en esta oración.    
+2. Use **coincidir()** para contar el número de todos los **porque** en la siguiente oración:**'No puede terminar una oración con porque porque porque es una conjunción'**   
+3. Limpia el siguiente texto y encuentra la palabra más frecuente (pista, usa replace y expresiones regulares).
+    
+        const sentencia = '%I $soy@% un %tea@cher%, &y& amo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& más gratificante como educa@tar &y& @emp%o@weri@ng peo@ple. ;Encontré la docencia m%o@re interesante que cualquier otro %jo@bs. %¿Es este el mo@tivo para que seas un maestro? %E#son 30#días&deJavaScript &también es $el $resu@lt del &amor&de la enseñanza'
+    
+4. Calcula el ingreso anual total de la persona extrayendo los números del siguiente texto. 'Él gana 5000 euros de salario por mes, bono anual de 10000 euros, cursos en línea de 15000 euros por mes.'
+*/
+
+let oracion2 = "El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor";
+console.log("cuantas veces se repite amor: ", oracion2.includes("amor"));
