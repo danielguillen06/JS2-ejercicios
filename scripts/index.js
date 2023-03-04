@@ -33,8 +33,8 @@ Ejercicio: Nivel 1
 let desafio = "Largos dias de JavaScript"; //Declare una variable llamada desafío y asígnele un valor inicial 'Largos días de JavaScript'.
 console.log(desafio); //Imprime la cadena en la consola del navegador usando console.log()
 console.log("longitud:",desafio.length); //Imprime la longitud de la cadena en la consola del navegador usando console.log()
-console.log("Mayuscula:", desafio.toUpperCase("Largos dia de JavaScript")); //Cambie todos los caracteres de la cadena a letras mayúsculas usando el método toUpperCase()
-console.log("Minuscula:", desafio.toLowerCase("Largos dia de JavaScript")); //Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
+console.log("Mayuscula:", desafio.toUpperCase()); //Cambie todos los caracteres de la cadena a letras mayúsculas usando el método toUpperCase()
+console.log("Minuscula:", desafio.toLowerCase()); //Cambie todos los caracteres de la cadena a letras minúsculas usando el método toLowerCase()
 console.log("Cortar palabra:", desafio.substring(7 , 24)); //Corta (segmenta) la primera palabra de la cadena usando el método substr() o substring()
 console.log("Cortar la frase despues de largo:", desafio.substring(0,5)); //Corta la frase Days Of JavaScript de Long Days Of JavaScript.
 console.log("Esta la palabra Script:", desafio.includes("Script")); //Verifique si la cadena contiene una palabra Script usando el método include ()
@@ -42,7 +42,7 @@ console.log("Matriz:",desafio.split("")); //Divida la cadena en una matriz usand
 console.log("Dividir:", desafio.split(" ")); //Divida la cadena Long Days Of JavaScript en el espacio usando el método split ()
 
 let programas = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
-console.log("dividir la cadena en comas:", programas.split(" ") ); //'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' divide la cadena en la coma y la cambia a una matriz.
+console.log("dividir la cadena en comas:", programas.split(", ") ); //'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' divide la cadena en la coma y la cambia a una matriz.
 
 console.log("Cambiar una palabra:", desafio.replace("JavaScript", "Phyton")); //Cambie Long Days Of JavaScript a Long Days Of Python usando el método replace().
 console.log("cual es el caracter en el indice 15:", desafio.charAt(15)); //Qué es el carácter en el índice 15 en la cadena 'Long Days Of JavaScript'? Utilice el método charAt().
@@ -146,4 +146,4 @@ Ejercicios: Nivel 3
 */
 
 let oracion2 = "El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor";
-console.log("cuantas veces se repite amor: ", oracion2.includes("amor"));
+console.log("cuantas veces se repite amor: ", oracion2.includes("amor")); //'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor. Cuente el número de palabras **amor** en esta oración.
